@@ -3,22 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rock Counter</title>
+  <title>Rock Age</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="counter">
-    <h1>Rock age:&nbsp;</h1>
-    <h1 class="rock-age">0</h1>
-    <p class="timer">(reset in 10s)</p>
+  <div class="layout">
+    <div class="leaderboard">
+      <h2>Leaderboard</h2>
+      <ul class="leaderboard-list"></ul>
+    </div>
+
+    <div class="game-area">
+      <div class="counter">
+        <h1>Rock age:&nbsp;</h1>
+        <h1 class="rock-age">0</h1>
+      </div>
+      <img class="rock-image" src="1.jpg" alt="Rock" />
+    </div>
+
+    <div class="timer-box">
+      <p class="timer">(reset in 10s)</p>
+    </div>
   </div>
 
-  <!-- Removed height attribute to prevent distortion -->
-  <img class="rock-image" src="1.jpg" alt="Rock" width="40%" />
-
   <div class="end-screen hidden">
-    <h1 class="rip-text">RIP Lil Rock</h1>
+    <h1 class="rip-text">RIP <span class="rock-name-display">Lil Rock</span></h1>
     <button class="restart-btn">Restart</button>
   </div>
 </body>
