@@ -1,101 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rock Counter</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">  <img src="1.png">
-  <img src="1.png">
+  <div class="counter">
+    <h1>Rock age:&nbsp;</h1>
+    <h1 class="rock-age">0</h1>
+    <p class="timer">(reset in 10s)</p>
+  </div>
+
+  <!-- Removed height attribute to prevent distortion -->
+  <img class="rock-image" src="1.jpg" alt="Rock" width="40%" />
+
+  <div class="end-screen hidden">
+    <h1 class="rip-text">RIP Lil Rock</h1>
+    <button class="restart-btn">Restart</button>
+  </div>
 </body>
 </html>
